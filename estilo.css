@@ -229,10 +229,10 @@ ul.menu li a:hover{
     text-transform: uppercase;
     text-align: center;
 }
-.artigo4 p{
+.artigo4 ul{
     padding-top: 185px;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
     padding-left: 120px;
     padding-right: 120px;
 }
