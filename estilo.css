@@ -1,0 +1,226 @@
+/*Arquivo estilo.css ---- menu1 centralizado */
+*{ 
+     margin: 0px;    
+     padding: 0px; 
+}
+body{ font-family: arial;}
+a{ text-decoration: none; color: #000; }/*retira o sublinhado dos links*/
+
+#all{
+        width: 618px;
+        height: 80px;
+        line-height: 80px; /* centraliza na vertical */
+        background-color: #f39243;
+        border: 1px dashed #c58443;
+        margin: 0 auto;/*centraliza*/
+        }
+
+ul.menu{
+        text-align: center; /* centraliza na horizontal */
+        }
+
+
+ul.menu li{
+        display: inline-block; /* centraliza na horizontal */
+        margin: 0 5px;/*de um item pra outro tem margin 0(inferior e superior) e 5 px pros lados*/
+        }
+
+ul.menu li a{
+        background-color: #d27e1e;/*cor*/
+        border-radius: 5px; /*bordas arredondadas*/
+        padding: 5px 8px;/*padding é o espaçamento antes da borda*/
+        color: #fff;
+        }
+
+ul.menu li a:hover{
+        background-color: #b16706;
+        }
+
+#banner{
+    background-color: rgb(255, 255, 255);
+    width: 618px;
+    height: 180px;
+    margin: 0 auto;
+    border: 1px #000000;
+}
+#banner img{
+    width: 200px;
+    height: 180px;
+    padding: 0px 1px;
+}
+
+#header{
+    width: 618px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    background-color: #ffb560;
+}
+#header h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+#section{
+    width: 618px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #ffc481;
+
+}
+.article{
+    width: 180px;
+    float: left;
+    margin: 5px 8px;
+}
+.article h1{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.article p{
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+#footer{
+    width: 618px;
+    margin: 0 auto;
+}
+#footer h5{
+    margin: 12px 0px 0px 0px;
+    font-size: 17px;
+    text-align: center;
+}
+#footer img{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+
+/*codificação da página sobre*/
+
+#conteudo{
+    width: 618px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #f7c036;
+    border: 1px dashed #c58443;
+}
+
+.artigo h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.artigo p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+
+/*fim da codificação página sobre*/
+
+/*codificação da página impacto*/
+
+#conteudo1{
+    width: 618px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #f7c036;
+    border: 1px dashed #c58443;
+}
+
+.artigo1 h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.artigo1 p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+/*fim da codificação página impacto*/
+
+/*codificação página galeria*/
+
+#conteudo2{
+    background-color: #f7c036;
+    width: 618px;
+    height: 767px;
+    margin: 0 auto;
+    border: 1px dashed #db9a02;
+}
+
+#conteudo2 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+#conteudo2 img{
+    width: 200px;
+    height: 180px;
+    padding: 0px 1px;
+}
+
+/*fim da codificação página galeria*/
+
+/*codificação página características*/
+
+#conteudo3{
+    width: 618px;
+    height: 675px;
+    margin: 0 auto;
+    background-color: #f7c036;
+    border: 1px dashed #c58443;
+}
+
+.artigo3 table{
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+.artigo3 th{
+    border: 1px solid #000;
+}
+.artigo3 td{
+    border: 1px solid #000;
+}
+
+.artigo3 h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.artigo3 p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+}
+
+/*fim da codificação página caracteristicas*/
+
+/*codificação página créditos*/
+
+#conteudo4{
+    width: 618px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #f7c036;
+    border: 1px dashed #c58443;
+}
+.artigo4 h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.artigo4 p{
+    padding-top: 185px;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 120px;
+    padding-right: 120px;
+}
