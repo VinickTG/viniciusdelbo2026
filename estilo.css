@@ -150,6 +150,12 @@ ul.menu li a:hover{
     text-align: justify;
     padding: 5px;
 }
+.artigo h2{
+     font-size: 16px;
+    text-align: justify;
+    padding: 5px;
+     margin-top: 10px;
+}
 /*fim da codificação página impacto*/
 
 /*codificação página galeria*/
