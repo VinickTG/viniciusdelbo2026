@@ -39,19 +39,19 @@ ul.menu li a:hover{
 #banner{
     background-color: rgb(255, 255, 255);
     width: 618px;
-    height: 180px;
+    height: 350px;
     margin: 0 auto;
     border: 1px #000000;
 }
 #banner img{
     width: 200px;
-    height: 180px;
+    height: 350px;
     padding: 0px 1px;
 }
 
 #header{
     width: 618px;
-    height: 80px;
+    height: 465px;
     line-height: 80px;
     margin: 0 auto;
     background-color: #ffb560;
